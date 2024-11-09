@@ -5,7 +5,7 @@ import { StatusCode } from "hono/utils/http-status"
 import superjson from "superjson"
 
 const getBaseUrl = () => {
-  // browser should use relative path
+ 
   if (typeof window !== "undefined") {
     return ""
   }

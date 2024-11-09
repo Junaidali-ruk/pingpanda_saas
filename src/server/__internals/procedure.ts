@@ -45,7 +45,7 @@ export class Procedure<ctx = {}> {
   constructor(middlewares: Middleware<ctx>[] = []) {
     this.middlewares = middlewares
 
-    // add built-in superjson middleware if not already present
+    
     if (!this.middlewares.some((mw) => mw.name === "superjsonMiddleware")) {
       this.middlewares.push(this.superjsonMiddleware)
     }

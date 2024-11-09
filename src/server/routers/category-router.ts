@@ -95,7 +95,7 @@ export const categoryRouter = router({
       const { user } = ctx
       const { color, name, emoji } = input
 
-      // TODO: ADD PAID PLAN LOGIC
+        
 
       const eventCategory = await db.eventCategory.create({
         data: {

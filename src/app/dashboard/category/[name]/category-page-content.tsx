@@ -50,7 +50,7 @@ export const CategoryPageContent = ({
     "today"
   )
 
-  // https://localhost:3000/dashboard/category/sale?page=5&limit=30
+ 
   const page = parseInt(searchParams.get("page") || "1", 10)
   const limit = parseInt(searchParams.get("limit") || "30", 10)
 
